@@ -39,7 +39,7 @@
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.16.0",
     "gsap": "^3.7.1",
-    "lax.js": "^1.2.5",
+    "lax.js": "^2.0.3",
     "splitting": "^1.0.6"
   }
 }
