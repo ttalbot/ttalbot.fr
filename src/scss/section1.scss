@@ -1,0 +1,37 @@
+.shapes {
+  z-index: -1;
+  max-width: 1200px;
+}
+
+.d1-making {
+  z-index: 1;
+  font-size: 14vw;
+  line-height: 14vw;
+  margin-bottom: 0;
+  @include media-breakpoint-up(xxl) {
+    font-size: 13rem;
+    line-height: 13rem;
+  }
+}
+
+.d1-tech {
+  font-size: 8.14vw;
+  line-height: 8.14vw;
+  margin-bottom: 0;
+  @include media-breakpoint-up(xxl) {
+    font-size: 7.55rem;
+    line-height: 7.55rem;
+  }
+}
+
+.d1-enjoy {
+  z-index: -2;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18.1vw;
+  line-height: 18.1vw;
+  margin-bottom: 0;
+  @include media-breakpoint-up(xxl) {
+    font-size: 16.75rem;
+    line-height: 16.75rem;
+  }
+}
