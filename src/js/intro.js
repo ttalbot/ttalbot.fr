@@ -20,10 +20,10 @@ intro.to('.intro-logo', {
   ease: 'elastic',
   duration: 1.8,
   stagger: .2,
-}).to('.cross', {
+}, '<').to('.cross', {
   rotation: '90',
   duration: 15,
   transformOrigin: 'center center',
   repeat: -1,
   ease: 'linear'
-})
+}, '<')
