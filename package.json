@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "clean": "rimraf dist",
-    "start": "parcel --open",
+    "start": "parcel --open --no-cache",
     "build": "parcel build"
   },
   "author": "",
