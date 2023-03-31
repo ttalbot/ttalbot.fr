@@ -1,6 +1,6 @@
 import './scroll/scroll_config'
 import './three/three_config'
-import './intro'
+// import './intro'
 import './design'
 import './team'
 import './contact'
