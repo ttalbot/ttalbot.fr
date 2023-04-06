@@ -1,9 +1,16 @@
 @import 'lenis/config';
 @import 'section1';
 
+canvas {
+  overflow: hidden;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
 body, html, canvas {
   margin: 0;
-  // overflow: hidden;
   color: #ffec70;
 }
 

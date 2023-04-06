@@ -1,6 +1,6 @@
 import './scroll/scroll_config'
-import './three/three_config'
 import './intro'
-import './design'
-import './team'
-import './contact'
+import Experience from './three/Experience'
+
+const canvas = document.querySelector('.webgl')
+const experience = new Experience(canvas)
